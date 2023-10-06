@@ -72,7 +72,7 @@ function Register() {
                     onChange={(e) => setRememberMe(e.target.checked)}
                 />
                 <br />
-                <button type="submit" className="btn btn-outline-primary">Register</button>
+                <button type="submit" className="btn btn-outline-primary" onClick={handleSubmit}>Register</button>
             </form>
         </div>
     );
