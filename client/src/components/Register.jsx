@@ -14,7 +14,7 @@ function Register() {
     }, [])
 
     const getUser = async () => {
-        var users = await axios.get("http://localhost:4000/users")
+        var users = await axios.get('http://localhost:4000/users')
         setUsers(users.data);
     }
 
